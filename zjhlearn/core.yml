@@ -6,7 +6,7 @@ spring:
         mongodb:
             host: ${host.mongodb}
             port: ${port.mongodb}
-            database: contactdb
+            database: zjhlearn
 
 zooKeeper:
     hosts: ${zooKeeperHosts}

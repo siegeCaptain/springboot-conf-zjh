@@ -8,10 +8,12 @@ port:
     account: 7001
     common: 7002
     payment: 7003
+    coinstore: 7007
 
 service:
     core: core-service
     account: account-service
+    coinstore: coinstore-service
     projectName: ${projectName}
     
 host:
@@ -20,6 +22,7 @@ host:
     account: 127.0.0.1
     common: 127.0.0.1
     payment: 127.0.0.1
+    coinstore: 127.0.0.1
     
 accountMongodb:
     username:

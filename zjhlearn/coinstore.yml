@@ -1,7 +1,7 @@
 server:
-  port: ${port.account}
+  port: ${port.coinstore}
 
-accountServiceUrl: http://${host.account}:${port.account}
+accountServiceUrl: http://${host.coinstore}:${port.coinstore}
 
 spring:
     data:
@@ -12,5 +12,5 @@ spring:
 zooKeeper:
     hosts: ${zooKeeperHosts}
     project: ${projectName}
-    service: ${service.account}
-    port: ${port.account}
+    service: ${service.coinstore}
+    port: ${port.coinstore}
